@@ -1,0 +1,7431 @@
+
+[0X3E000702]:
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+ro.multi.rild=true
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=true
+
+[0X3EBE4000]:
+ro.config.hw_device_mode=clg_mode
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_save_pin=true
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+rild.libargs=-d /dev/viacomm_cmux
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+
+[0X3EBE4007]:
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+persist.radio.multisim.config=dsda
+ro.config.hw_save_pin=true
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+ro.config.hw_device_mode=clg_mode
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+rild.libargs=-d /dev/viacomm_cmux
+
+[0X3EBE400E]:
+persist.radio.modem.cap=899B4
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+ro.config.hw_dsda=true
+persist.dsds.enabled=true
+ro.config.hw_save_pin=true
+persist.radio.multisim.config=dsda
+ro.config.hw_device_mode=clg_mode
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-d /dev/viacomm_cmux
+
+[0X3EF51000]:
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+
+[0X3EF51002]:
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+
+[0X3EF51008]:
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+
+[0X3EF5100B]:
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+
+[0X3EF5100D]:
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+
+[0X3EF51009]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EF5100C]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+
+[0X3EF51003]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+
+[0X3EF51001]:
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=899B4
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EF51014]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EF51017]:
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+
+[0X3EF5101A]:
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EF5104E]:
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+
+[0X3EF5105C]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EF51070]:
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB02000]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB0200A]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB02014]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB02017]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB0201A]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0202E]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0201B]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0202F]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0201C]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB0201D]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB0201E]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0201F]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB02030]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB02031]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB02020]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB02021]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB02022]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB02023]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB02024]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB02025]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB02026]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB02027]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB02028]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB02032]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB02029]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0202A]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0202B]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB02033]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0202D]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB02034]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB02035]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB02036]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB02037]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB02038]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB02039]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0203A]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0203B]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0203C]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB0203D]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0203E]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0203F]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB02040]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB02041]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB02042]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB02043]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB02044]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB02045]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB02047]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB02049]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0204D]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0204E]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB0204F]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB02050]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB02051]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB02052]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB02053]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB02054]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB02058]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB02059]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0205A]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB02063]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB02067]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB0206D]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0206F]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB02075]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EBEF000]:
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_save_pin=true
+ro.config.hw_device_mode=clg_mode
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+ro.config.hw_dsda=true
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-d /dev/viacomm_cmux
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+
+[0X3EBEF007]:
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.config.hw_device_mode=clg_mode
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+persist.radio.multisim.config=dsda
+ro.config.hw_save_pin=true
+persist.dsds.enabled=true
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+rild.libargs=-d /dev/viacomm_cmux
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+
+[0X3EBEF00E]:
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+ro.config.hw_dsda=true
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+ro.config.hw_device_mode=clg_mode
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_save_pin=true
+
+[0X3EF59000]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EF59002]:
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=899B4
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EF59008]:
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+
+[0X3EF5900B]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+
+[0X3EF5900D]:
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EF59009]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+
+[0X3EF5900C]:
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+
+[0X3EF59003]:
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+
+[0X3EF59001]:
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+
+[0X3EF59014]:
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+
+[0X3EF59017]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EF5901A]:
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+
+[0X3EF5904E]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EF5905C]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EF59070]:
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+
+[0X3EF5907F]:
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+
+[0X3EB0A000]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A00A]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB0A014]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB0A017]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A01A]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0A02E]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A01B]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB0A02F]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB0A01C]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB0A01D]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB0A01E]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0A01F]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB0A030]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A031]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB0A020]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0A021]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A022]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A023]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0A024]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB0A025]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0A026]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB0A027]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0A028]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0A032]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0A029]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A02A]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0A02B]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0A033]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0A02D]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A034]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0A035]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0A036]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0A037]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0A038]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A039]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB0A03A]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A03B]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0A03C]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A03D]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0A03E]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0A03F]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A040]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A041]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A042]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A043]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0A044]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0A045]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A047]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0A048]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB0A049]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A04C]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0A04D]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A04E]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB0A04F]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0A050]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0A051]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB0A052]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB0A053]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A054]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A058]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0A059]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB0A05A]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0A061]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0A062]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0A063]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB0A064]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0A065]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A067]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A06A]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0A06D]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0A06F]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0A073]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0A075]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A078]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0A079]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0A07E]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EF93000]:
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+ro.config.full_network_support=true
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+ro.config.default_commril_mode=ULG_MODE
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+ro.config.hw_device_mode=cl_mode
+persist.dsds.enabled=false
+
+[0X3EBE5000]:
+rild.libargs=-d /dev/viacomm_cmux
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+ro.config.hw_device_mode=clg_mode
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+ro.config.hw_save_pin=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+
+[0X3EBE5007]:
+rild.libargs=-d /dev/viacomm_cmux
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+ro.config.hw_device_mode=clg_mode
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+ro.config.hw_save_pin=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+
+[0X3EBE500E]:
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+ro.config.hw_device_mode=clg_mode
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_save_pin=true
+ro.config.hw_dsda=true
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+persist.radio.modem.cap=899B4
+
+[0X3EF56000]:
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+
+[0X3EF56002]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EF56008]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+
+[0X3EF5600B]:
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+
+[0X3EF5600D]:
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+
+[0X3EF56009]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EF5600C]:
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs1=-m modem1
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.radio.modem.cap=899B4
+
+[0X3EF56003]:
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EF56001]:
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+
+[0X3EF56014]:
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+
+[0X3EF56017]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EF5601A]:
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+
+[0X3EF5604E]:
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+
+[0X3EF5605C]:
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+
+[0X3EF56070]:
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs1=-m modem1
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.radio.modem.cap=899B4
+
+[0X3EF5607F]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+
+[0X3EB07000]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0700A]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB07014]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB07017]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB0701A]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0702E]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB0701B]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0702F]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0701C]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0701D]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0701E]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0701F]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB07030]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB07031]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB07020]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB07021]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+
+[0X3EB07022]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB07023]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB07024]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB07025]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB07026]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB07027]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB07028]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB07032]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB07029]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0702A]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0702B]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB07033]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0702D]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB07034]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB07035]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB07036]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB07037]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB07038]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB07039]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0703A]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0703B]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0703C]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0703D]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0703E]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0703F]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB07040]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB07041]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB07042]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB07043]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB07044]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB07045]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB07047]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB07048]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB07049]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0704C]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0704D]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0704E]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0704F]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB07050]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB07051]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB07052]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB07053]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB07054]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB07058]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB07059]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0705A]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB07061]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB07062]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB07063]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB07064]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB07065]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB07067]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0706A]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0706D]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB0706F]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB07073]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB07075]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB07078]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB07079]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0707E]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EBE8000]:
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-d /dev/viacomm_cmux
+persist.radio.modem.cap=899B4
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+ro.config.hw_dsda=true
+persist.dsds.enabled=true
+ro.config.hw_save_pin=true
+persist.radio.multisim.config=dsda
+ro.config.hw_device_mode=clg_mode
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+
+[0X3EBE8007]:
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-d /dev/viacomm_cmux
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_save_pin=true
+ro.config.hw_device_mode=clg_mode
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+ro.config.hw_dsda=true
+
+[0X3EBE800E]:
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_save_pin=true
+ro.config.hw_device_mode=clg_mode
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+ro.config.hw_dsda=true
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-d /dev/viacomm_cmux
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+
+[0X3EF5B000]:
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+
+[0X3EF5B002]:
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs1=-m modem1
+
+[0X3EF5B008]:
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+
+[0X3EF5B00B]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EF5B00D]:
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+
+[0X3EF5B009]:
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EF5B00C]:
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=899B4
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+
+[0X3EF5B014]:
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EF5B017]:
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=899B4
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EF5B01A]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+
+[0X3EF5B04E]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+
+[0X3EB0C000]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0C00A]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB0C014]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0C01B]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0C01C]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0C01D]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0C01E]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0C01F]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0C020]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0C021]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0C022]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0C023]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0C024]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB0C025]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0C026]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0C027]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0C028]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0C029]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0C02A]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0C02B]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0C02D]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0C02F]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0C030]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0C031]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0C032]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0C033]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB0C049]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EBED000]:
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+ro.config.hw_dsda=true
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+ro.config.hw_device_mode=clg_mode
+persist.dsds.enabled=true
+ro.config.hw_save_pin=true
+persist.radio.multisim.config=dsda
+
+[0X3EBED007]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+ro.config.hw_device_mode=clg_mode
+persist.dsds.enabled=true
+ro.config.hw_save_pin=true
+persist.radio.multisim.config=dsda
+ro.config.hw_dsda=true
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+persist.radio.modem.cap=899B4
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+
+[0X3EBED00E]:
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+rild.libargs=-d /dev/viacomm_cmux
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.config.hw_device_mode=clg_mode
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+ro.config.hw_save_pin=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EF5E000]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+
+[0X3EF5E002]:
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+
+[0X3EF5E008]:
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+
+[0X3EF5E00B]:
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs1=-m modem1
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.radio.modem.cap=899B4
+
+[0X3EF5E00D]:
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EF5E009]:
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+
+[0X3EF5E00C]:
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+
+[0X3EF5E014]:
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+
+[0X3EF5E017]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EF5E01A]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+
+[0X3EF5E04E]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+
+[0X3EF5E05C]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+
+[0X3EF5E070]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+
+[0X3EF5E07F]:
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EB01400]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0140A]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB01414]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB01417]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB0141A]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB0141B]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB0141C]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0141D]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0141E]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0141F]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB01420]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+
+[0X3EB01421]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB01422]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB01423]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB01424]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB01425]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB01426]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB01427]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB01428]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB01429]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0142A]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB0142B]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB0142D]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0142E]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0142F]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB01430]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB01431]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB01432]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB01433]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB01434]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB01435]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB01436]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB01437]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB01438]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB01439]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0143A]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0143B]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB0143C]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0143D]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0143E]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB0143F]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB01440]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB01441]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB01442]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB01443]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB01444]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB01445]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB01447]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB01449]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0144C]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0144D]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0144E]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB0144F]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB01450]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB01451]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB01452]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB01453]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB01454]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB01458]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB01459]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0145A]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB01461]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB01462]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB01463]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB01464]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB01465]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB01467]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0146A]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0146D]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB0146F]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB01473]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB01475]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB01478]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB01479]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EBE2400]:
+rild.libargs=-d /dev/viacomm_cmux
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+ro.config.hw_device_mode=clg_mode
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.multisim.config=dsda
+ro.config.hw_save_pin=true
+persist.dsds.enabled=true
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+
+[0X3EBE2407]:
+ro.config.hw_device_mode=clg_mode
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+ro.config.hw_save_pin=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+rild.libargs=-d /dev/viacomm_cmux
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+
+[0X3EBE240E]:
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+rild.libargs=-d /dev/viacomm_cmux
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+persist.radio.multisim.config=dsda
+ro.config.hw_save_pin=true
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+ro.config.hw_device_mode=clg_mode
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+
+[0X3EF54400]:
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+
+[0X3EF54402]:
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EF54408]:
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+
+[0X3EF5440B]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EF5440D]:
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+
+[0X3EF54409]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EF5440C]:
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs1=-m modem1
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.radio.modem.cap=899B4
+
+[0X3EF5447A]:
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=899B4
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EF54414]:
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+
+[0X3EF54417]:
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EF5441A]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+
+[0X3EF5444E]:
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EF5445C]:
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs1=-m modem1
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.radio.modem.cap=899B4
+
+[0X3EF54470]:
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+
+[0X3EF5447F]:
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB08400]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0840A]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB08414]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+
+[0X3EB08417]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0841A]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0841B]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0841C]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB0841D]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB0841E]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0841F]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB08420]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB08421]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+
+[0X3EB08422]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB08423]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB08424]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB08425]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB08426]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB08427]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB08428]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB08429]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB0842A]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB0842B]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0842D]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0842E]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0842F]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB08430]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB08431]:
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB08432]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB08433]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB08434]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB08435]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB08436]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB08437]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB08438]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB08439]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB0843A]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0843B]:
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0843C]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB0843D]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB0843E]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0843F]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB08440]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB08441]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+
+[0X3EB08442]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB08443]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB08444]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB08445]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+
+[0X3EB08447]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB08449]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB0844C]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0844D]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0844E]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB0844F]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EB08450]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB08451]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB08452]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB08453]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB08454]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=899B4
+
+[0X3EB08458]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB08459]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB0845A]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB08461]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB08462]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB08463]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB08464]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB08465]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB08467]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB0846A]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0846D]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0846F]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+
+[0X3EB08473]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB08475]:
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB08478]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=899B4
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB08479]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=899B4
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3E0A0400]:
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+ro.config.hw_device_mode=clg_mode
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.config.hw_dsda=true
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+
+[0X3EBE9400]:
+ro.config.hw_device_mode=clg_mode
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+persist.radio.multisim.config=dsda
+ro.config.hw_save_pin=true
+persist.dsds.enabled=true
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+rild.libargs=-d /dev/viacomm_cmux
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+
+[0X3EBE9407]:
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+rild.libargs=-d /dev/viacomm_cmux
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=899B4
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.config.hw_device_mode=clg_mode
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+ro.config.hw_save_pin=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EBE940E]:
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-d /dev/viacomm_cmux
+persist.radio.modem.cap=899B4
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+ro.config.hw_dsda=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_save_pin=true
+ro.config.hw_device_mode=clg_mode
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+
+[0X3EBEA400]:
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+ro.config.hw_device_mode=clg_mode
+persist.dsds.enabled=true
+ro.config.hw_save_pin=true
+persist.radio.multisim.config=dsda
+ro.config.hw_dsda=true
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+persist.radio.modem.cap=89994
+
+[0X3EBEA407]:
+rild.libargs=-d /dev/viacomm_cmux
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+ro.config.hw_device_mode=clg_mode
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+ro.config.hw_save_pin=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=89994
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+
+[0X3EBEA40E]:
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+persist.radio.modem.cap=89994
+ro.config.hw_dsda=true
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+persist.radio.multisim.config=dsda
+ro.config.hw_save_pin=true
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+ro.config.hw_device_mode=clg_mode
+
+[0X3EF50180]:
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EF50182]:
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EF50188]:
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EF5018B]:
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+
+[0X3EF5018D]:
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3ED50180]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+
+[0X3EB50580]:
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB50582]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+
+[0X3EB50584]:
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EB50588]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+
+[0X3EB5058B]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+
+[0X3EB5058D]:
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+
+[0X3EB53580]:
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+
+[0X3EB53589]:
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+
+[0X3EB5358C]:
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB535FC]:
+rild.libpath1=
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=
+persist.dsds.enabled=false
+persist.radio.multisim.config=
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB51580]:
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB51594]:
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs1=-m modem1
+
+[0X3EB51595]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+
+[0X3EB5159A]:
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+
+[0X3EB52580]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EBE0980]:
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+ro.config.hw_dsda=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.config.hw_device_mode=clg_mode
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EBE0987]:
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+ro.config.hw_device_mode=clg_mode
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.config.hw_dsda=true
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+
+[0X3EBE098E]:
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_device_mode=clg_mode
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+ro.config.hw_dsda=true
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-d /dev/viacomm_cmux
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+
+[0X3EFE0D80]:
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-d /dev/viacomm_cmux
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.config.hw_device_mode=clg_mode
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+ro.config.hw_dsda=true
+
+[0X3EFE0D91]:
+ro.config.hw_dsda=true
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+ro.config.hw_device_mode=clg_mode
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+
+[0X3EFE0D92]:
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.config.hw_dsda=true
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+ro.config.hw_device_mode=clg_mode
+
+[0X3EFE0DFF]:
+ro.config.hw_device_mode=clg_mode
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+ro.config.hw_dsda=true
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+rild.libargs=-d /dev/viacomm_cmux
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+
+[0X3EB54580]:
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+
+[0X3EB54582]:
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+
+[0X3EB54584]:
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+
+[0X3EB54588]:
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB5458B]:
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs1=-m modem1
+
+[0X3EB5458D]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+
+[0X3EB55580]:
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+
+[0X3EB55589]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+
+[0X3EB5558C]:
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB555FC]:
+persist.radio.multisim.config=
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libpath1=
+rild.libargs=-m modem0
+rild.libargs1=
+
+[0X3EBE1980]:
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.config.hw_dsda=true
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+ro.config.hw_device_mode=clg_mode
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+rild.libargs=-d /dev/viacomm_cmux
+
+[0X3EBE1987]:
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+ro.config.hw_dsda=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_device_mode=clg_mode
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-d /dev/viacomm_cmux
+
+[0X3EBE198E]:
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.config.hw_dsda=true
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+ro.config.hw_device_mode=clg_mode
+
+[0X3EFE1D80]:
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+ro.config.hw_dsda=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_device_mode=clg_mode
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+
+[0X3EFE1D91]:
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+rild.libargs=-d /dev/viacomm_cmux
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+ro.config.hw_dsda=true
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.config.hw_device_mode=clg_mode
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EFE1D92]:
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+ro.config.hw_device_mode=clg_mode
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_dsda=true
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+
+[0X3EFE1DFF]:
+rild.libargs1=-m modem0
+rild.libargs2=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=8
+rild.libargs=-d /dev/viacomm_cmux
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.config.hw_dsda=true
+ro.multi.rild=false
+ro.config.dsds_mode=cdma_gsm
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libvia-ril.so
+rild.rild1_ready_to_start=false
+ro.config.hw_device_mode=clg_mode
+
+[0X3EF50880]:
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+
+[0X3EF52880]:
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=89994
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+
+[0X3EF52882]:
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs1=-m modem1
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.radio.modem.cap=89994
+
+[0X3EF52888]:
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+persist.radio.modem.cap=89994
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+
+[0X3EF52889]:
+persist.radio.modem.cap=89994
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+
+[0X3EF5288C]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=89994
+
+[0X3EF51880]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.modem.cap=89994
+
+[0X3EF51897]:
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=89994
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EF518E8]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.radio.modem.cap=89994
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EB54880]:
+persist.radio.modem.cap=89994
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+ro.config.hw_dsda=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+
+[0X3EB54894]:
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=89994
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EB5489A]:
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=89994
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+
+[0X3EB548FD]:
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.modem.cap=89994
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3EF53880]:
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+
+[0X3EF54880]:
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.radio.modem.cap=89994
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+
+[0X3EF54889]:
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=89994
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EF5488C]:
+rild.libargs1=-m modem1
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=89994
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EF548E8]:
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+ro.config.hw_dsda=true
+ro.config.dsds_mode=umts_gsm
+ro.multi.rild=true
+persist.radio.modem.cap=89994
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+
+[0X3EF59880]:
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=89994
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+
+[0X3EF598E8]:
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.radio.modem.cap=89994
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+rild.libargs1=-m modem1
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+
+[0X3EB55880]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs1=-m modem1
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=true
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+persist.radio.modem.cap=89994
+
+[0X3EB5588A]:
+rild.libargs=-m modem0
+rild.libpath1=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs1=-m modem1
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.multisim.config=dsda
+persist.dsds.enabled=true
+ro.config.hw_dsda=true
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+persist.radio.modem.cap=89994
+
+[0X3EB5589A]:
+persist.dsds.enabled=true
+persist.radio.multisim.config=dsda
+rild.rild1_ready_to_start=true
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=89994
+ro.multi.rild=true
+ro.config.dsds_mode=umts_gsm
+ro.config.hw_dsda=true
+ro.telephony.default_network=9
+rild.libpath1=/system/lib64/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libargs1=-m modem1
+
+[0X3E9E6880]:
+ro.config.dsds_mode=cdma_gsm
+ro.multi.rild=false
+ro.config.hw_dsda=true
+rild.libpath2=/system/lib64/libbalong-ril-1.so
+ro.config.hw_device_mode=clg_mode
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libvia-ril.so
+persist.radio.multisim.config=dsda
+ro.config.hw_save_pin=true
+persist.dsds.enabled=true
+rild.libargs2=-m modem1
+rild.libargs1=-m modem0
+rild.libargs=-d /dev/viacomm_cmux
+ro.telephony.default_network=8
+rild.libpath1=/system/lib64/libbalong-ril.so
+
+[0X3EB04880]:
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=89894
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB0488A]:
+persist.radio.modem.cap=89894
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB04894]:
+persist.radio.modem.cap=89894
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0489A]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=89894
+
+[0X3EB0489F]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=89894
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB048A1]:
+persist.radio.modem.cap=89894
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB048A4]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=89894
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB048B7]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=89894
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EB048B8]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=89894
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB048BA]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=89894
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB048BD]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=89894
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB048D3]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=89894
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EB048FE]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=89894
+
+[0X3EB05880]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=89894
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB0588A]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=89894
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EB05897]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=89894
+
+[0X3EB058E8]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=89894
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EB058AF]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=89894
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+
+[0X3EB058CE]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=89894
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EB058FB]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=89894
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+
+[0X3EB058FC]:
+persist.radio.modem.cap=89894
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EF04880]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=89894
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EF04889]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=89894
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EF0488B]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=89894
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EF0488C]:
+persist.radio.modem.cap=89894
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EF07880]:
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.radio.modem.cap=89894
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EF07889]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.radio.modem.cap=89894
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+
+[0X3EF0788A]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=89894
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EF0788B]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=89894
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EF0788C]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=89894
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EF07894]:
+persist.radio.modem.cap=89894
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EF0789A]:
+persist.radio.modem.cap=89894
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.dsds.enabled=false
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+
+[0X3EF078A0]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=89894
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EF078C3]:
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=89894
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EF078D2]:
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=89894
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EF078D3]:
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+ro.config.hw_dsda=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+persist.radio.modem.cap=89894
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EF078F9]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+persist.radio.modem.cap=89894
+
+[0X3EF078FA]:
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.radio.modem.cap=89894
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+
+[0X3EF078FD]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.hw_dsda=false
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+persist.radio.modem.cap=89894
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+
+[0X3EF078FF]:
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+persist.radio.modem.cap=89894
+rild.rild1_ready_to_start=false
+rild.libpath=/system/lib64/libbalong-ril.so
+persist.dsds.enabled=false
+
+[0X3EA08880]:
+ro.multi.rild=false
+ro.config.dsds_mode=umts
+ro.config.hw_dsda=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+persist.dsds.enabled=false
+rild.libargs=-m modem0
+ro.telephony.default_network=9
+
+[0X3EA0A880]:
+persist.dsds.enabled=false
+rild.libpath=/system/lib64/libbalong-ril.so
+rild.rild1_ready_to_start=false
+ro.config.dsds_mode=umts
+ro.multi.rild=false
+ro.config.hw_dsda=false
+ro.telephony.default_network=9
+rild.libargs=-m modem0
