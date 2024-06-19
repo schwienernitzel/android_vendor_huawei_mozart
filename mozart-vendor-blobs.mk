@@ -395,4 +395,12 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/libaes.so:/system/lib/libaes.so \
     $(VENDOR_PATH)/lib64/libaes.so:/system/lib64/libaes.so \
     $(VENDOR_PATH)/lib/liblog.so:/system/lib/libshim_log.so \
-    $(VENDOR_PATH)/lib64/liblog.so:/system/lib64/libshim_log.so
+    $(VENDOR_PATH)/lib64/liblog.so:/system/lib64/libshim_log.so \
+    $(VENDOR_PATH)/lib/libomx_vxd.so:/system/lib/libomx_vxd.so \
+    $(VENDOR_PATH)/lib/libomx_vxe.so:/system/lib/libomx_vxe.so \
+    $(VENDOR_PATH)/lib/libstagefrighthw.so:/system/lib/libstagefrighthw.so \
+    $(VENDOR_PATH)/lib/libvpp.so:/system/lib/libvpp.so \
+    $(VENDOR_PATH)/lib64/libomx_vxd.so:/system/lib64/libomx_vxd.so \
+    $(VENDOR_PATH)/lib64/libomx_vxe.so:/system/lib64/libomx_vxe.so \
+    $(VENDOR_PATH)/lib64/libstagefrighthw.so:/system/lib64/libstagefrighthw.so \
+    $(VENDOR_PATH)/lib64/libvpp.so:/system/lib64/libvpp.so
