@@ -365,3 +365,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/hw/lights.default.so:/system/lib64/hw/lights.hi3635.so \
     $(VENDOR_PATH)/lib/hw/memtrack.hi3635.so:/system/lib/hw/memtrack.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/memtrack.hi3635.so:/system/lib64/hw/memtrack.hi3635.so
+    $(VENDOR_PATH)/lib64/hw/sensorcaps.default.so:/system/lib64/hw/sensorcaps.default.so \
+    $(VENDOR_PATH)/lib64/hw/sensorhub.default.so:/system/lib64/hw/sensorhub.default.so \
+    $(VENDOR_PATH)/lib64/libhwlog_jni.so:/system/lib64/libhwlog.so \
+    $(VENDOR_PATH)/lib64/libsensorservice.so:/system/lib64/libsensorservice.so
