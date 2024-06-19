@@ -361,3 +361,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/libaudioalgoservice_jni.so:/system/lib64/libaudioalgoservice_jni.so \
     $(VENDOR_PATH)/lib64/libaudioroute.so:/system/lib64/libaudioroute.so \
     $(VENDOR_PATH)/lib64/libmax98925.so:/system/lib64/libmax98925.so
+    $(VENDOR_PATH)/lib/hw/lights.default.so:/system/lib/hw/lights.hi3635.so \
+    $(VENDOR_PATH)/lib64/hw/lights.default.so:/system/lib64/hw/lights.hi3635.so \
+    $(VENDOR_PATH)/lib/hw/memtrack.hi3635.so:/system/lib/hw/memtrack.hi3635.so \
+    $(VENDOR_PATH)/lib64/hw/memtrack.hi3635.so:/system/lib64/hw/memtrack.hi3635.so
