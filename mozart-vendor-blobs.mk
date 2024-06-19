@@ -388,4 +388,5 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/bin/glgps47531:/system/bin/glgps47531 \
     $(VENDOR_PATH)/bin/gpsdaemon:/system/bin/gpsdaemon \
     $(VENDOR_PATH)/lib64/hw/gps47531.default.so:/system/lib64/hw/gps.hi3635.so \
-    $(VENDOR_PATH)/lib64/hw/flp.default.so:/system/lib64/hw/flp.hi3635.so
+    $(VENDOR_PATH)/lib64/hw/flp.default.so:/system/lib64/hw/flp.hi3635.so \
+    $(VENDOR_PATH)/bin/thermal-daemon:/system/bin/thermal-daemon
