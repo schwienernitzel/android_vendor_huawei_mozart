@@ -390,4 +390,5 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/hw/gps47531.default.so:/system/lib64/hw/gps.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/flp.default.so:/system/lib64/hw/flp.hi3635.so \
     $(VENDOR_PATH)/bin/thermal-daemon:/system/bin/thermal-daemon \
-    $(VENDOR_PATH)/bin/mac_addr_normalization:/system/bin/mac_addr_normalization
+    $(VENDOR_PATH)/bin/mac_addr_normalization:/system/bin/mac_addr_normalization \
+    $(VENDOR_PATH)/vendor/lib/libbt-vendor.so:/system/vendor/lib/libbt-vendor.so
