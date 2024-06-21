@@ -403,4 +403,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/libomx_vxd.so:/system/lib64/libomx_vxd.so \
     $(VENDOR_PATH)/lib64/libomx_vxe.so:/system/lib64/libomx_vxe.so \
     $(VENDOR_PATH)/lib64/libstagefrighthw.so:/system/lib64/libstagefrighthw.so \
-    $(VENDOR_PATH)/lib64/libvpp.so:/system/lib64/libvpp.so
+    $(VENDOR_PATH)/lib64/libvpp.so:/system/lib64/libvpp.so \
+    $(VENDOR_PATH)/TBM_Latour.bin:/system/TBM_Latour.bin \
+    $(VENDOR_PATH)/isp.bin:/system/isp.bin \
+    $(VENDOR_PATH)/miniBoot.bin:/system/miniBoot.bin \
+    $(VENDOR_PATH)/ons.bin:/system/ons.bin
