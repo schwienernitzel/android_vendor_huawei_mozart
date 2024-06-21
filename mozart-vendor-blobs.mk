@@ -367,7 +367,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/hw/memtrack.hi3635.so:/system/lib64/hw/memtrack.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/sensorcaps.default.so:/system/lib64/hw/sensorcaps.default.so \
     $(VENDOR_PATH)/lib64/hw/sensorhub.default.so:/system/lib64/hw/sensorhub.default.so \
-    $(VENDOR_PATH)/lib64/libhwlog_jni.so:/system/lib64/libhwlog.so \
+    $(VENDOR_PATH)/lib64/libhwlog.so:/system/lib64/libhwlog.so \
     $(VENDOR_PATH)/lib64/libsensorservice.so:/system/lib64/libsensorservice.so \
     $(VENDOR_PATH)/bin/rild:/system/bin/rild \
     $(VENDOR_PATH)/etc/modemConfig/hids_ue_msg.cfg:/system/etc/modemConfig/hids_ue_msg.cfg \
