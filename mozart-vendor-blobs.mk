@@ -132,7 +132,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/vendor/firmware/hifi_6402_4spk.img:/system/vendor/firmware/hifi_6402_4spk.img \
     $(VENDOR_PATH)/vendor/firmware/hifi_6402.img:/system/vendor/firmware/hifi_6402.img \
     $(VENDOR_PATH)/vendor/firmware/BCM4335C0_003.001.009.0105.0497_Mozart_ORC.hcd:/system/vendor/firmware/BCM4335C0_003.001.009.0105.0497_Mozart_ORC.hcd \
-    $(VENDOR_PATH)/vendor/firmware/dhd_preinit_config.txt:/system/vendor/firmware/dhd_preinit_config.txt
+    $(VENDOR_PATH)/vendor/firmware/dhd_preinit_config.txt:/system/vendor/firmware/dhd_preinit_config.txt \
     $(VENDOR_PATH)/etc/audio/hi6402/pop_seq_PLK.xml:/system/etc/audio/hi6402/pop_seq_PLK.xml \
     $(VENDOR_PATH)/etc/audio/hi6402/mixer_volumes_PLK_cmcciot.xml:/system/etc/audio/hi6402/mixer_volumes_PLK_cmcciot.xml \
     $(VENDOR_PATH)/etc/audio/hi6402/mixer_paths_DAVINCE.xml:/system/etc/audio/hi6402/mixer_paths_DAVINCE.xml \
@@ -360,11 +360,11 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/libaudio_custom.so:/system/lib64/libaudio_custom.so \
     $(VENDOR_PATH)/lib64/libaudioalgoservice_jni.so:/system/lib64/libaudioalgoservice_jni.so \
     $(VENDOR_PATH)/lib64/libaudioroute.so:/system/lib64/libaudioroute.so \
-    $(VENDOR_PATH)/lib64/libmax98925.so:/system/lib64/libmax98925.so
+    $(VENDOR_PATH)/lib64/libmax98925.so:/system/lib64/libmax98925.so \
     $(VENDOR_PATH)/lib/hw/lights.default.so:/system/lib/hw/lights.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/lights.default.so:/system/lib64/hw/lights.hi3635.so \
     $(VENDOR_PATH)/lib/hw/memtrack.hi3635.so:/system/lib/hw/memtrack.hi3635.so \
-    $(VENDOR_PATH)/lib64/hw/memtrack.hi3635.so:/system/lib64/hw/memtrack.hi3635.so
+    $(VENDOR_PATH)/lib64/hw/memtrack.hi3635.so:/system/lib64/hw/memtrack.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/sensorcaps.default.so:/system/lib64/hw/sensorcaps.default.so \
     $(VENDOR_PATH)/lib64/hw/sensorhub.default.so:/system/lib64/hw/sensorhub.default.so \
     $(VENDOR_PATH)/lib64/libhwlog_jni.so:/system/lib64/libhwlog.so \
