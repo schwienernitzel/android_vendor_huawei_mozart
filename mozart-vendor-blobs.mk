@@ -354,12 +354,14 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/libhuaweiaudioalgoservice.so:/system/lib/libhuaweiaudioalgoservice.so \
     $(VENDOR_PATH)/lib/libhuaweiaudioeffectutil.so:/system/lib/libhuaweiaudioeffectutil.so \
     $(VENDOR_PATH)/lib/libhuaweiprocessing.so:/system/lib/libhuaweiprocessing.so \
+    $(VENDOR_PATH)/lib/libtfa9895.so:/system/lib/libtfa9895.so \
     $(VENDOR_PATH)/lib/libmax98925.so:/system/lib/libmax98925.so \
     $(VENDOR_PATH)/lib/libswsprocessing.so:/system/lib/libswsprocessing.so \
     $(VENDOR_PATH)/lib64/hw/audio.primary.hi3635.so:/system/lib64/hw/audio.primary.hi3635.so \
     $(VENDOR_PATH)/lib64/libaudio_custom.so:/system/lib64/libaudio_custom.so \
     $(VENDOR_PATH)/lib64/libaudioalgoservice_jni.so:/system/lib64/libaudioalgoservice_jni.so \
     $(VENDOR_PATH)/lib64/libaudioroute.so:/system/lib64/libaudioroute.so \
+    $(VENDOR_PATH)/lib64/libtfa9895.so:/system/lib64/libtfa9895.so \
     $(VENDOR_PATH)/lib64/libmax98925.so:/system/lib64/libmax98925.so \
     $(VENDOR_PATH)/lib/hw/lights.default.so:/system/lib/hw/lights.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/lights.default.so:/system/lib64/hw/lights.hi3635.so \
