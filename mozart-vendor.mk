@@ -15,6 +15,7 @@
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    adbd \
     hw_healthd \
     oeminfo_nvm_server \
     teecd
