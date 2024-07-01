@@ -394,6 +394,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/bin/thermal-daemon:/system/bin/thermal-daemon \
     $(VENDOR_PATH)/bin/mac_addr_normalization:/system/bin/mac_addr_normalization \
     $(VENDOR_PATH)/vendor/lib/libbt-vendor.so:/system/vendor/lib/libbt-vendor.so \
+    $(VENDOR_PATH)/vendor/lib64/libbt-vendor.so:/system/vendor/lib64/libbt-vendor.so \
     $(VENDOR_PATH)/lib/libaes.so:/system/lib/libaes.so \
     $(VENDOR_PATH)/lib64/libaes.so:/system/lib64/libaes.so \
     $(VENDOR_PATH)/lib/liblog.so:/system/lib/libshim_log.so \
