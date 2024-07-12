@@ -409,4 +409,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/TBM_Latour.bin:/system/TBM_Latour.bin \
     $(VENDOR_PATH)/isp.bin:/system/isp.bin \
     $(VENDOR_PATH)/miniBoot.bin:/system/miniBoot.bin \
-    $(VENDOR_PATH)/ons.bin:/system/ons.bin
+    $(VENDOR_PATH)/ons.bin:/system/ons.bin \
+    $(VENDOR_PATH)/lib/libpowergenie_native3.so:system/lib/libpowergenie_native3.so \
+    $(VENDOR_PATH)/lib64/libpowergenie_native3.so:system/lib64/libpowergenie_native3.so
