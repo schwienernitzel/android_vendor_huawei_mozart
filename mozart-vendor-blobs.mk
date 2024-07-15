@@ -410,4 +410,5 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/TBM_Latour.bin:/system/TBM_Latour.bin \
     $(VENDOR_PATH)/isp.bin:/system/isp.bin \
     $(VENDOR_PATH)/miniBoot.bin:/system/miniBoot.bin \
-    $(VENDOR_PATH)/ons.bin:/system/ons.bin
+    $(VENDOR_PATH)/ons.bin:/system/ons.bin \
+    $(VENDOR_PATH)/lib/libFNVfbEngineLib.so:/system/lib/libFNVfbEngineLib.so
