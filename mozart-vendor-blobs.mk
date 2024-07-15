@@ -29,10 +29,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/liboeminfo.so:/system/lib64/liboeminfo.so \
     $(VENDOR_PATH)/lib64/liboeminfo_jni.so:/system/lib64/liboeminfo_jni.so \
     $(VENDOR_PATH)/lib64/libteec.so:/system/lib64/libteec.so \
-    $(VENDOR_PATH)/lib/hw/copybit.hi3635.so:/system/lib/hw/copybit.hi3635.so \
     $(VENDOR_PATH)/lib/hw/gralloc.hi3635.so:/system/lib/hw/gralloc.hi3635.so \
     $(VENDOR_PATH)/lib/libion.so:/system/lib/libion.so \
-    $(VENDOR_PATH)/lib64/hw/copybit.hi3635.so:/system/lib64/hw/copybit.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/gralloc.hi3635.so:/system/lib64/hw/gralloc.hi3635.so \
     $(VENDOR_PATH)/lib64/libion.so:/system/lib64/libion.so \
     $(VENDOR_PATH)/lib/egl/libGLES_android.so:/system/lib/egl/libGLES_android.so \
