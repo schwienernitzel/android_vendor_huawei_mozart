@@ -35,6 +35,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/hw/copybit.hi3635.so:/system/lib64/hw/copybit.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/gralloc.hi3635.so:/system/lib64/hw/gralloc.hi3635.so \
     $(VENDOR_PATH)/lib64/libion.so:/system/lib64/libion.so \
+    $(VENDOR_PATH)/lib/egl/libGLES_android.so:/system/lib/egl/libGLES_android.so \
+    $(VENDOR_PATH)/lib64/egl/libGLES_android.so:/system/lib64/egl/libGLES_android.so \
     $(VENDOR_PATH)/vendor/lib/egl/libGLES_mali.so:/system/lib/egl/libGLES_mali.so \
     $(VENDOR_PATH)/vendor/lib64/egl/libGLES_mali.so:/system/lib64/egl/libGLES_mali.so \
     $(VENDOR_PATH)/fpgaice40/LB_ALL_V1.bin:/system/fpgaice40/LB_ALL_V1.bin \
