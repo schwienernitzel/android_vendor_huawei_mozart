@@ -21,3 +21,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit vendor blobs
 $(call inherit-product, vendor/huawei/mozart/mozart-vendor-blobs.mk)
+
+# Inherit camera blobs
+$(call inherit-product, vendor/huawei/mozart/mozart-camera-blobs.mk)
