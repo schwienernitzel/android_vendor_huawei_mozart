@@ -411,4 +411,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/miniBoot.bin:/system/miniBoot.bin \
     $(VENDOR_PATH)/ons.bin:/system/ons.bin \
     $(VENDOR_PATH)/lib/libpowergenie_native3.so:system/lib/libpowergenie_native3.so \
-    $(VENDOR_PATH)/lib64/libpowergenie_native3.so:system/lib64/libpowergenie_native3.so
+    $(VENDOR_PATH)/lib64/libpowergenie_native3.so:system/lib64/libpowergenie_native3.so \
+    $(VENDOR_PATH)/lib/libhwaps.so:/system/lib/libhwaps.so \
+    $(VENDOR_PATH)/lib64/libhwaps.so:/system/lib64/libhwaps.so
