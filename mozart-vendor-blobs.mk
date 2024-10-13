@@ -409,6 +409,4 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/isp.bin:/system/isp.bin \
     $(VENDOR_PATH)/miniBoot.bin:/system/miniBoot.bin \
     $(VENDOR_PATH)/ons.bin:/system/ons.bin \
-    $(VENDOR_PATH)/lib/libFNVfbEngineLib.so:/system/lib/libFNVfbEngineLib.so \
-    $(VENDOR_PATH)/lib/libHidlUtil.so:/system/lib/libHidlUtil.so \
-    $(VENDOR_PATH)/lib64/libHidlUtil.so:/system/lib64/libHidlUtil.so
+    $(VENDOR_PATH)/lib/libFNVfbEngineLib.so:/system/lib/libFNVfbEngineLib.so
